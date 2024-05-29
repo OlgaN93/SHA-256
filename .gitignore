@@ -1,0 +1,7 @@
+.vs
+x64/
+SHA-256.sln
+SHA-256.vcxproj
+SHA-256.vcxproj.filters
+SHA-256.vcxproj.user
+text_for_hash.txt

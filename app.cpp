@@ -13,11 +13,11 @@ using namespace std;
 
 int main()
 {
-    const char file_name[100] = "D:\\For_Olga\\lern_C++\\projects\\SHA-256\\text_for_hash.txt"; //"pathToFile\\file_name"; 
+    const char file_name[100] = "pathToFile\\file_name"; 
 
     FILE *input_for_work_with_file;
     fopen_s(&input_for_work_with_file, file_name, "r");
-    cout << sha_256_file(input_for_work_with_file) << endl;
+    cout << sha_256(input_for_work_with_file) << endl;
 
     ifstream input_for_work_with_vector(file_name);
     char sim;

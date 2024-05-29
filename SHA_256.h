@@ -31,6 +31,6 @@ unsigned int text_preparation(std::vector<char> &text);
 void conversion_from_8bit_to_32bit(char *text, uint32_t *text_uint_32);
 void work_with_block(char *text, uint32_t *hash_values, uint32_t *text_uint_32);
 std::string sha_256(std::vector<char> text);
-std::string sha_256_file(FILE *input_file);
+std::string sha_256(FILE *input_file);
 
 #endif

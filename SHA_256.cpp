@@ -159,7 +159,7 @@ string sha_256(vector<char> text)
  *
  * \return Итоговое значение хеша
  */
-string sha_256_file(FILE *input_file)
+string sha_256(FILE *input_file)
 {
     uint32_t hash_values[8] = {};
 
